@@ -124,7 +124,7 @@ export default function Home() {
     }
     useEffect(() => {
         console.log(getCookie('my_app_auth_token'))
-      // GetUserData()
+        GetUserData()
     }, [])
     return (
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-zinc-50 to-zinc-100 dark:from-black dark:to-zinc-900 font-sans">
